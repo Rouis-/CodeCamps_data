@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  overflow: hidden;
+  display: block;
+ 
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  height: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  top: 0px;
+  background: #333;
+  margin: 0px;
+  padding: 15px 0px;
+  z-index: 200;
+  border-bottom: 5px solid #000000;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: -10px;
+}
+
+li {
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-indent: 20px;
+}
+
+li:hover {
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  background: #444444
+}
+
+#wtf {
+  margin-left:45%;
+}
+
+#recherche {
+  margin-top: 15px;
+  margin-left: 30%;
+  border-radius: 5px;
+  height: 40px;
+  width: 40%;
+  border: 2px solid #000000;
+  outline-style: none;
+}
+
+#alldelet {
+  width: 80%;
+  margin: auto;
+}
+
+#footer {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+ width: 90%;
+ margin: auto;
+ margin-top: 0px;
+}
+
+.square {
+  overflow: auto;
+  float: left;
+  width: 30%;
+  height: 400px;
+  background: #333;
+  margin: 15px;
+}
+
+#wtf {
+ margin-left:45%;
+ margin-top: 5px;
+}

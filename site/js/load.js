@@ -1,0 +1,97 @@
+$("body").append($("<input>").attr("id", "cat").attr("style","hidden"));
+
+
+$("#action").click(function(){
+	$("#cat").text("action");
+	request_php();
+});
+$("#animation").click(function(){
+	$("#cat").text("animation");
+	request_php();
+});
+$("#anime").click(function(){
+	$("#cat").text("dessin anime");
+	request_php();
+});
+$("#cinema").click(function(){
+	$("#cat").text("cinema");
+	request_php();
+});
+$("#comedie").click(function(){
+	$("#cat").text("comedie");
+	request_php();
+});
+$("#decouverte").click(function(){
+	$("#cat").text("decouverte");
+	request_php();
+});
+$("#documentaire").click(function(){
+	$("#cat").text("documentaire");
+	request_php();
+});
+$("#drame").click(function(){
+	$("#cat").text("drame");
+	request_php();
+});
+$("#epouvante").click(function(){
+	$("#cat").text("epouvante");
+	request_php();
+});
+$("#fantastique").click(function(){
+	$("#cat").text("fantastique");
+	request_php();
+});
+$("#formation").click(function(){
+	$("#cat").text("formation");
+	request_php();
+});
+$("#jeunesse").click(function(){
+	$("#cat").text("jeunesse");
+	request_php();
+});
+$("#loisirs").click(function(){
+	$("#cat").text("loisirs");
+	request_php();
+});
+$("#manga").click(function(){
+	$("#cat").text("manga");
+	request_php();
+});
+$("#musique").click(function(){
+	$("#cat").text("musique");
+	request_php();
+});
+$("#romance").click(function(){
+	$("#cat").text("romance");
+	request_php();
+});
+$("#sante").click(function(){
+	$("#cat").text("sante");
+	request_php();
+});
+$("#serie").click(function(){
+	$("#cat").text("serie");
+	request_php();
+});
+$("#spectacle").click(function(){
+	$("#cat").text("spectacle");
+	request_php();
+});
+$("#sport et jeux").click(function(){
+	$("#cat").text("sport et jeux");
+	request_php();
+});
+$("#thriller").click(function(){
+	$("#cat").text("thriller");
+	request_php();
+});
+$("#autre").click(function(){
+	$("#cat").text("autre");
+	request_php();
+});
+
+$("#wtf").click(function(){
+	$("#cat").text("");
+	request_php();
+	$("#recherche").val("");
+});
